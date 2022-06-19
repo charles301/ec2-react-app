@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from 'react-bootstrap';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Ive finally got my react app working on an EC2 instance using NGINX =D
         </p>
+        <Button>Click Me</Button>
         <a
           className="App-link"
           href="https://reactjs.org"
